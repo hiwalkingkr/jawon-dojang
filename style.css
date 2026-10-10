@@ -13,3 +13,7 @@ button:disabled{opacity:.45}.pri{background:var(--g);color:#fff}.ch{text-align:l
 .row{display:flex;gap:10px}.row .hint{flex:1}.row .pz{width:72px}.ico{font-size:52px;text-align:center}.boss{color:#c62828;font-weight:700;text-align:center}
 .charrow{display:flex;align-items:center;justify-content:center;gap:8px}.char.big{font-size:56px}.char.mid{font-size:36px}.char.sm{font-size:24px}
 .credit{font-size:13px;color:#666;margin-top:16px}
+/* 5단계: 새로운 도전(확장) 표시 — 기본 4단계와 구분 */
+.extbox{margin-top:14px;padding-top:6px;border-top:2px dashed #b9c9bb}
+.xcard{border-color:#b26a00;color:#7a4a00;background:#fff8e6}.xcard small{display:block;font-weight:400}
+.extcount{font-size:15px;margin:6px 0;color:#7a4a00}.extinfo{background:#fff8e6;padding:10px;border-radius:10px}.extmode{font-weight:700;color:#7a4a00}.extnew{color:#b26a00;font-weight:700}
