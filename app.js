@@ -7,7 +7,7 @@ const N=[['🟢','분리배출 탐험가','초급'],['🔵','분리배출 해결
 // 대상별: 아이콘, 이름, 시간배율, 캐릭터 크기 클래스 (엔진·문제는 공통)
 const AGE={elementary:['👦','초등학생',1.5,'big'],teen:['🧑','청소년',1.2,'mid'],college:['🎓','대학생',.9,'sm'],adult:['👨','성인',1,'sm']};
 const ICON={'pet-clear':'🧴','paper-pack':'🧃','paper-cup':'🥤','soju-bottle':'🍾','power-bank':'🔋','delivery-box':'📦','beverage-can':'🥫','shampoo-pump':'🧴','ramen-bag':'🍜','pizza-box':'🍕','old-phone':'📱','device-battery':'🔋','vinyl-pack':'🛍️','heat-glass':'🥛','broken-glass':'🥛'};
-const CREDIT='<p class="credit">제작 · 박원영 | 숲친구 들꽃<br>숲해설가 · 환경교육사</p>';
+const CREDIT='<p class="credit">제작 · 박원영 | 숲친구 들꽃<br>산림교육전문가 · 환경교육사</p>';
 const nm=l=>N[l-1]||['📕','오답 복습','오답 복습'];
 const lab=x=>nm(x.level);                                    // 게임 객체(g, S.run)의 이름
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
