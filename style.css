@@ -17,3 +17,7 @@ button:disabled{opacity:.45}.pri{background:var(--g);color:#fff}.ch{text-align:l
 .extbox{margin-top:14px;padding-top:6px;border-top:2px dashed #b9c9bb}
 .xcard{border-color:#b26a00;color:#7a4a00;background:#fff8e6}.xcard small{display:block;font-weight:400}
 .extcount{font-size:15px;margin:6px 0;color:#7a4a00}.extinfo{background:#fff8e6;padding:10px;border-radius:10px}.extmode{font-weight:700;color:#7a4a00}.extnew{color:#b26a00;font-weight:700}
+/* 통합 개선: 저장 실패·손상 안내, 공유 문구 복사 상자 (기존 규칙은 변경하지 않고 추가만) */
+.warn{background:#fff8e6;padding:10px;border-radius:10px;color:#7a4a00}
+.cpbox{margin:10px 0;padding:10px;border-radius:10px;background:var(--l)}.cpbox p{margin:0 0 6px;font-size:15px}
+.cpbox textarea{width:100%;font:inherit;font-size:15px;border:2px solid var(--g);border-radius:10px;padding:8px}
